@@ -1,0 +1,29 @@
+@import 'variables';
+@import '~rootstrap-ui/dist/styles/scss/index';
+@import '~loaders.css/src/animations/ball-scale-multiple';
+
+.loading-wrapper {
+  align-items: center;
+  display: flex;
+  height: 5rem;
+  justify-content: center;
+  width: 5rem;
+
+  // These two classes are required by react-loaders
+  .loader-hidden {
+    display: none;
+  }
+
+  .loader-active {
+    display: block;
+  }
+}
+
+.header {
+  padding: 1rem;
+  text-align: center;
+
+  &__logo {
+    width: 150px;
+  }
+}
